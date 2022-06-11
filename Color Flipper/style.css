@@ -1,0 +1,40 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 1rem;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.btn {
+  padding: 2px 5px;
+  margin: 5px;
+  border: 1px;
+  background-color: limegreen;
+  border-radius: 2rem;
+  width: 7rem;
+  height: 3rem;
+  box-shadow: 2px 2px 5px rgba(45, 200, 99, 0.8);
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: orange;
+}
+.btn::after {
+  background-color: limegreen;
+}
