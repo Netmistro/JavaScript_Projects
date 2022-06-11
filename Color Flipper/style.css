@@ -11,16 +11,16 @@
 .navbar {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 1rem;
 }
 li {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   text-decoration: none;
 }
-.btn {
+#btn {
   padding: 2px 5px;
   margin: 5px;
   border: 1px;
@@ -32,7 +32,7 @@ li {
   transition: all 0.5s ease;
 }
 
-.btn:hover {
+#btn:hover {
   background-color: orange;
 }
 .btn::after {
