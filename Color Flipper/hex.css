@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  flex-direction: column;
+  height: 80vh;
+}
+.btn {
+  background-color: grey;
+  font-weight: 600;
+  color: white;
+  outline-color: grey;
+  margin: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 10px;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
+}
+.btn:hover {
+  background-color: orange;
+  color: black;
+  transition: all 0.5s ease;
+}
