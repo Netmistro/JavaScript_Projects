@@ -49,11 +49,16 @@
 }
 
 .quote {
-    font-size: 15px;
     color: black;
-    font-weight: bold;
+    margin: 0.5rem 2rem;
+    padding: 0.25rem;
+    border-left: solid black;
 }
 
 .author {
     color: black;
+    margin: 0.5rem;
+    padding: 0.25rem;
+    text-decoration: none;
+    text-emphasis: bold;
 }
