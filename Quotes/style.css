@@ -1,0 +1,59 @@
+*,
+*::before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote-cntr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    flex: 0 0 60%;
+    height: 50vh;
+    background-color: bisque;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.quote-cntr:hover {
+    background-color: blanchedalmond;
+}
+
+.header {
+    margin: 0.25rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.btn-quote {
+    margin: 0.25rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.btn-quote:hover {
+    border: 1px;
+    box-shadow: 5px 5px 2px #888888;
+}
+
+.quote {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.author {
+    color: black;
+}
