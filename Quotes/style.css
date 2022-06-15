@@ -31,7 +31,7 @@
 }
 
 .header {
-    margin: 0.25rem;
+    margin: 1rem;
     padding: 1rem;
     font-weight: bold;
 }
@@ -41,6 +41,7 @@
     padding: 1rem;
     border-radius: 5px;
     border: 1px;
+    font-weight: bold;
 }
 
 .btn-quote:hover {
@@ -50,14 +51,14 @@
 
 .quote {
     color: black;
-    margin: 0.5rem 2rem;
+    margin: 1rem 2rem;
     padding: 0.25rem;
-    border-left: solid black;
+    border-left: 10px solid #fcdbbf;
 }
 
 .author {
     color: black;
-    margin: 0.5rem;
+    margin: 1rem;
     padding: 0.25rem;
     text-decoration: none;
     text-emphasis: bold;
