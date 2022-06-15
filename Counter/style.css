@@ -1,0 +1,63 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./img/background.svg');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 80%;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: solid black;
+    background: rgb(60, 57, 102);
+    background: linear-gradient(90deg, rgba(60, 57, 102, 1) 0%, rgba(51, 51, 111, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.buttons {
+    display: flex;
+}
+
+button {
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    width: 7rem;
+    background-color: rgba(0, 0, 255, 0.452);
+    color: whitesmoke;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    transition: all 2s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: color;
+}
+
+h1 {
+    padding: 1rem;
+    margin: 0.5rem;
+    color: white;
+}
+
+.counter {
+    font-size: 5rem;
+    color: white;
+}
