@@ -10,13 +10,13 @@ downCount.addEventListener("click", MinusCount);
 
 // Functions here
 function AddCount() {
-  count = count + 1;
+  count++;
   Counter.innerText = count;
   countCheck();
 }
 
 function MinusCount() {
-  count = count - 1;
+  count--;
   Counter.innerText = count;
   countCheck();
 }
@@ -25,9 +25,17 @@ function MinusCount() {
 function countCheck() {
   if (count < 0) {
     Counter.style.color = "red";
+    Counter.animate([{ opacity: 0.2 }, { opacity: 1.0 }], {
+      duration: 500,
+      fill: "forwards",
+    });
   } else if (count > 0) {
     Counter.style.color = "green";
+    Counter.animate([{ opacity: 0.2 }, { opacity: 1.0 }], {
+      duration: 500,
+      fill: "forwards",
+    });
   } else {
-    Counter.style.color = "black";
+    Counter.style.color = "white";
   }
 }
