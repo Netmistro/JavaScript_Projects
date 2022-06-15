@@ -1,0 +1,60 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+}
+
+.carousel {
+    background: yellow;
+    flex: 0 0 80%;
+    display: flex;
+    align-items: space-around;
+    min-height: 70vh;
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    background: whitesmoke;
+    color: black;
+    border: 1px solid green;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px 5px 5px grey;
+    outline: none;
+}
+
+.prevBtn {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%)
+}
+
+.nextBtn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%)
+}
+
+.btn:active {
+    background: grey;
+    box-shadow: 2px 5px grey;
+}
+
+.btn:hover {
+    background: green;
+    color: white;
+}
