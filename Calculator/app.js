@@ -14,8 +14,12 @@ for (let i = 0; i < btns.length; i++) {
 
 // Function for Equal Button
 equalBtn.addEventListener('click', function () {
-  let value = eval(screen.value);
-  screen.value = value;
+  if (screen.value === '') {
+    alert('Invalid Input');
+  } else {
+    let value = eval(screen.value);
+    screen.value = value;
+  }
 });
 
 // Function for Clear Button

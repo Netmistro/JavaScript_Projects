@@ -6,35 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Basic Calculator</title>
 </head>
 
 <body>
     <div class="calculator">
+        <p class="fa-solid fa-circle-small"></p>
 
         <input type="text" name="screen" class="screen">
 
         <div class="buttons">
-            <!-- Yellow Buttons -->
-            <button type="button" class="btn btn-yellow" data-num="*">*</button>
-            <button type="button" class="btn btn-yellow" data-num="/">/</button>
-            <button type="button" class="btn btn-yellow" data-num="-">-</button>
-            <button type="button" class="btn btn-yellow" data-num="+">+</button>
-            <!-- Grey Buttons -->
-            <button type="button" class="btn btn-grey" data-num=".">.</button>
-            <button type="button" class="btn btn-grey" data-num="9">9</button>
-            <button type="button" class="btn btn-grey" data-num="8">8</button>
-            <button type="button" class="btn btn-grey" data-num="7">7</button>
-            <button type="button" class="btn btn-grey" data-num="6">6</button>
-            <button type="button" class="btn btn-grey" data-num="5">5</button>
-            <button type="button" class="btn btn-grey" data-num="4">4</button>
-            <button type="button" class="btn btn-grey" data-num="3">3</button>
-            <button type="button" class="btn btn-grey" data-num="2">2</button>
-            <button type="button" class="btn btn-grey" data-num="1">1</button>
-            <button type="button" class="btn btn-grey" data-num="0">0</button>
 
-            <button type="button" class="btn-equal btn-grey">=</button>
-            <button type="button" class="btn-clear btn-grey">C</button>
+            <button type="button" class="btn btn-grey fa-solid fa-9" data-num="9"></button>
+            <button type="button" class="btn btn-grey fa-solid fa-8" data-num="8"></button>
+            <button type="button" class="btn btn-grey fa-solid fa-7" data-num="7"></button>
+            <button type="button" class="btn btn-yellow fa-solid fa-xmark" data-num="*"></button>
+
+            <button type="button" class="btn btn-grey fa-solid fa-6" data-num="6"></button>
+            <button type="button" class="btn btn-grey fa-solid fa-5" data-num="5"></button>
+            <button type="button" class="btn btn-grey fa-solid fa-4" data-num="4"></button>
+            <button type="button" class="btn btn-yellow fa-solid fa-divide" data-num="/"></button>
+
+            <button type="button" class="btn btn-grey fa-solid fa-3" data-num="3"></button>
+            <button type="button" class="btn btn-grey fa-solid fa-2" data-num="2"></button>
+            <button type="button" class="btn btn-grey fa-solid fa-1" data-num="1"></button>
+            <button type="button" class="btn btn-yellow fa-solid fa-minus" data-num="-"></button>
+
+            <button type="button" class="btn btn-grey fa-solid fa-period" data-num=".">.</button>
+            <button type="button" class="btn btn-grey fa-solid fa-0" data-num="0"></button>
+            <button type="button" class="btn-clear btn-grey fa-solid fa-c"></button>
+
+            <button type="button" class="btn btn-yellow fa-solid fa-plus" data-num="+"></button>
+            <button type="button" class="btn-equal btn-grey fa-solid fa-equals"></button>
+
         </div>
     </div>
 
