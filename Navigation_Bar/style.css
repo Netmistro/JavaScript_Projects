@@ -7,7 +7,7 @@
 }
 
 .navbar__header {
-    background: #b8882f;
+    background: #8ecae6;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 1rem;
@@ -16,7 +16,7 @@
 
 .navbar__btn {
     align-self: center;
-    border: 3px solid black;
+    border: 3px solid #023047;
     cursor: pointer;
 }
 
@@ -26,7 +26,7 @@
     width: 30px;
     height: 3px;
     margin: 0.5rem;
-    background: black;
+    background: #023047;
     transition: all 1S ease;
 }
 
@@ -56,18 +56,18 @@
 
 .navbar__single-link {
     display: block;
-    background: #69747c;
+    background: #219ebc;
     padding: 1rem;
     font-size: 1.5rem;
     text-decoration: none;
-    color: black;
+    color: #023047;
     transition: all 1s ease;
     cursor: pointer;
 }
 
 .navbar__single-link:hover {
     padding-left: 1.5rem;
-    background: whitesmoke;
+    background: #345995;
 }
 
 header {
