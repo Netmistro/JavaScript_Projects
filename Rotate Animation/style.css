@@ -1,0 +1,45 @@
+/* Clear all padding and margins */
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Background CSS */
+body {
+    padding: 0;
+    margin: 0;
+    background: #8af3f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* Method 1 using CSS and the hover effect */
+.rotate-01 {
+    transition: transform 1s;
+}
+
+.rotate-01:hover {
+    transform: rotate(360deg) translateZ(0);
+}
+
+/* Method 2 using animation with keyframes */
+.rotate-02 {
+    transition: transform 1s;
+}
+
+.rotate-02:hover {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg)
+    }
+
+}
